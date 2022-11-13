@@ -18,7 +18,7 @@ After rebooting, the zygote 32-bit process can be found. Now you can install the
 
 The switch is "ro.zygote" property. To spawn the zygote 32-bit process, it requires setting the value to "ro.zygote=zygote64_32". And it also requires adding the 32-bit abi to both "ro.vendor.product.cpu.abilist" and "ro.vendor.product.cpu.abilist32" properties.
 
-The patch.diff file is for [Magisk v24.3](https://github.com/topjohnwu/Magisk/tree/v24.3).
+The patch.diff file is for [Magisk](https://github.com/topjohnwu/Magisk).
 
 ## License
 
