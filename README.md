@@ -14,6 +14,8 @@ After rebooting, the zygote 32-bit process can be found. Now you can install the
     webview_zygote 1980  979 0 17:45:57 ?     00:00:00 webview_zygote
     shell         9453  9447 36 20:53:25 pts/0 00:00:00 grep zygote
 
+As the project is experimental, I do not try to solve other issues. 
+
 ## Details
 
 The switch is "ro.zygote" property. To spawn the zygote 32-bit process, it requires setting the value to "ro.zygote=zygote64_32". And it also requires adding the 32-bit abi to both "ro.vendor.product.cpu.abilist" and "ro.vendor.product.cpu.abilist32" properties.
