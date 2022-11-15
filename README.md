@@ -20,7 +20,10 @@ As the project is experimental, I do not try to solve other issues.
 
 The switch is "ro.zygote" property. To spawn the zygote 32-bit process, it requires setting the value to "ro.zygote=zygote64_32". And it also requires adding the 32-bit abi to both "ro.vendor.product.cpu.abilist" and "ro.vendor.product.cpu.abilist32" properties.
 
-The patch.diff file is for [Magisk](https://github.com/topjohnwu/Magisk).
+The diff files are for [Magisk](https://github.com/topjohnwu/Magisk).
+
+`magisk-25200-zygote64_32.diff` is for v25.2  
+`magisk-24300-zygote64_32.diff` is for v24.3
 
 ## License
 
